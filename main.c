@@ -67,7 +67,7 @@ void main() {
 		}
 		
 		default:{
-			printf("\n\nOpcao invalida.\n");
+			printf("\n\nOpcao invalida. Tente novamente.\n");
 			break;
 		}
 			
