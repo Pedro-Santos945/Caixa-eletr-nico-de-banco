@@ -56,7 +56,8 @@ void main() {
 		}
 		
 		case 5:{
-			
+			saldo -= emprestimo;
+			printf("\n\nEmprestimo pago. Aperte '1' para consultar o seu saldo novamente.\n");
 			break;
 		}
 		
