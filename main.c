@@ -1,13 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
-
-
+//FEITO POR GUSTAVO ANDRÉ E PEDRO HENRIQUE SANTOS
 float saldo = 1000.00;
+float emprestimo;
 void main() {
 	printf("Seja bem vindo ao seu caixa eletronico!");
 	printf("\nO que voce deseja fazer?");
 	
-	//FEITO POR GUSTAVO ANDRÉ E PEDRO HENRIQUE SANTOS
 	
 	int opcao;
 	
@@ -49,7 +48,6 @@ void main() {
 		}
 		
 		case 4:{
-			float emprestimo;
 			printf("\n\nDigite quanto de emprestimo voce quer pedir: ");
 			scanf("%f", &emprestimo);
 			saldo += emprestimo;
@@ -63,7 +61,7 @@ void main() {
 		}
 		
 		case 6:{
-			
+			printf("\n\nO valor total que voce fez em emprestimos e igual a: %.2f\n", emprestimo);
 			break;
 		}
 		
