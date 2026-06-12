@@ -35,22 +35,40 @@ void main() {
 			printf("\n\nDigite o quanto voce quer depositar: ");
 			scanf("%f", &deposito);
 			saldo += deposito;
-			printf("\nDeposito realizado!");
+			printf("\nDeposito realizado!\n\n");
 			break;
 		}
 		
 		case 3:{
-			
+			float saque;
+			printf("\n\nDigite o quanto voce quer sacar: ");
+			scanf("%f", &saque);
+			saldo -= saque;
+			printf("\nSaque realizado!\n\n");
 			break;
 		}
 		
 		case 4:{
-			
+			float emprestimo;
+			printf("\n\nDigite quanto de emprestimo voce quer pedir: ");
+			scanf("%f", &emprestimo);
+			saldo += emprestimo;
+			printf("\nEmprestimo realizado!\n\n");
 			break;
 		}
 		
 		case 5:{
 			
+			break;
+		}
+		
+		case 6:{
+			
+			break;
+		}
+		
+		default:{
+			printf("\n\nOpcao invalida.\n");
 			break;
 		}
 			
