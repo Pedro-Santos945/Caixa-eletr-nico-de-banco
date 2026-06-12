@@ -7,6 +7,7 @@ void main() {
 	printf("Seja bem vindo ao seu caixa eletronico!");
 	printf("\nO que voce deseja fazer?");
 	
+	//FEITO POR GUSTAVO ANDRÉ E PEDRO HENRIQUE SANTOS
 	
 	int opcao;
 	
@@ -30,7 +31,11 @@ void main() {
 		}
 		
 		case 2:{
-			
+			float deposito;
+			printf("\n\nDigite o quanto voce quer depositar: ");
+			scanf("%f", &deposito);
+			saldo += deposito;
+			printf("\nDeposito realizado!");
 			break;
 		}
 		
